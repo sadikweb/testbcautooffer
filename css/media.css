@@ -1,0 +1,186 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    /* banner start  */
+    .banner {
+        padding-top: 50px;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    .navbar-brand img {
+        width: 120px !important;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .User_option {
+        display: none;
+        margin-right: 63px;
+    }
+    .contact-btn {
+        padding: 5px 10px;
+    }
+    .header_section .container {
+        padding: 0;
+    }
+    .banner-content .primary-btn {
+        padding: 15px 20px;
+    }
+    .banner-content .secondary-btn {
+        padding: 15px 20px;
+    }
+    /* banner end  */
+    /* project start  */
+    .project_sec {
+        padding: 50px 0;
+    }
+    .project_content h1 {
+        margin-bottom: 20px;
+        color: #10a6e9;
+        font-size: 21px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-style: normal;
+        line-height: 44px;
+    }
+    .project_content h2 {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    /* project end */
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* banner start  */
+    .banner {
+        padding-top: 50px;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .banner p {
+        margin-bottom: 30px;
+    }
+    /* banner end  */
+    /* project start  */
+    .project_sec {
+        padding: 50px 0;
+    }
+    .project_content h1 {
+        margin-bottom: 20px;
+        color: #10a6e9;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-style: normal;
+        line-height: 44px;
+    }
+    /* project end */
+    /* work sec start  */
+    .single-ongoing-update {
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .single-ongoing-update h2 {
+        font-size: 18px;
+    }
+    .single-ongoing-update p {
+        font-size: 15px;
+    }
+    /* work sec end  */
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* banner start  */
+    .banner {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .banner p {
+        margin-bottom: 30px;
+    }
+    /* banner end  */
+    /* project start  */
+    .project_sec {
+        padding: 60px 0;
+    }
+    .project_content h1 {
+        margin-bottom: 20px;
+        color: #10a6e9;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-style: normal;
+        line-height: 44px;
+    }
+    /* project end */
+    /* work sec start  */
+    .single-ongoing-update {
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .single-ongoing-update h2 {
+        font-size: 18px;
+    }
+    .single-ongoing-update p {
+        font-size: 15px;
+    }
+    /* work sec end  */
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start  */
+    .banner h1 {
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        line-height: 60px;
+        color: #05173D;
+    }
+    /* banner end  */
+    /* work sec start  */
+    .single-ongoing-update h2 {
+        font-size: 16px;
+    }
+    .single-ongoing-update p {
+        font-size: 14px;
+    }
+    /* work sec end  */
+}
+
+
+/*X large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+/*XX Large devices (large desktops, 1400px and up)*/
+
+@media (min-width: 1400px) {}
